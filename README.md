@@ -1,4 +1,4 @@
-Generate a [presskit()](www.dopresskit()) from a JSON file using [mustache.js](http://mustache.github.io)
+Generate a [presskit()](http://www.dopresskit()) from a JSON file using [mustache.js](http://mustache.github.io)
 
 # Installation
 
