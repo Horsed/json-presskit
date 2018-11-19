@@ -1,34 +1,30 @@
 {
-  "title": "VMOD",
-  "game-name": "VMOD",
-  "website": "https://vmod.id",
-  "website-name": "vmod.io",
+  "title": "AWESOME GAME - the best game ever",
+  "game-name": "AWESOME GAME",
+  "website": "https://bestawesomegameever.com",
+  "website-name": "bestawesomegameever.com",
   "presskit-base-path": "",
   "header": "/img/header.png",
-  "developer-website": "https://www.flatbutton.co",
-  "developer": "flat button",
-  "developer-location": "Based in Hohenwestedt, Germany",
-  "release-date": "10 January 2019",
+  "developer-website": "https://bestawesomedeveloperever.com",
+  "developer": "Best Awesome Developer Ever",
+  "developer-location": "Based in New York, Australia",
+  "release-date": "10 January 2099",
   "platforms": [
-    { "href": "http://itunes.apple.com/us/app/vmod/id1291390392", "name": "iOS", "first": true},
-    { "href": "http://itunes.apple.com/us/app/vmod/id1291390392", "name": "Android" }
+    { "href": "http://itunesurl", "name": "iOS", "first": true},
+    { "href": "http://androidurl", "name": "Android" }
   ],
   "prices": [
     { "currency": "EUR", "currency-char": "€", "price": "1.09" },
     { "currency": "USD", "currency-char": "$", "price": "0.99" }
   ],
-  "description": "\"VMOD\" - a new puzzler from the creator of \"AMOEBAE\", \"Shn!p\", \"Pocket Snap\" and \"Sliding Down\". It's a puzzle game about side-effects. Tap buttons to activate them. Figure out how the different buttons manipulate eachother.",
-  "history": "I had the idea one night during vacation. After prototyping some levels the game felt good and I set out to make a complete game of it. It took me 13 months.",
+  "description": "\"AWESOME GAME\" - a new game from the creator of \"2ND BEST GAME\"",
+  "history": "I woke up and had to make this game.",
   "features": [
-    "50 handcrafted logic puzzles",
-    "quite a number of mechanics",
-    "different puzzle mechanics",
-    "colorful presentation for your pleasure",
-    "minimal user interface for minimal distraction",
-    "button pressing fun"
+    "best features",
+    "best music"
   ],
   "videos": [
-    { "name": "Trailer", "url": "https://www.youtube.com/watch?v=FnheshR9oVM", "embed-url": "https://www.youtube.com/embed/FnheshR9oVM" }
+    { "name": "Trailer", "url": "https://youtubeurl", "embed-url": "https://youtube-embed-url" }
   ],
   "images": [
     { "alt-text": "screenshot1.png", "url": "/img/screenhot1.png", "src": "/img/screenshot1.png" }
@@ -37,19 +33,19 @@
     { "alt-text": "icon.png", "url": "/img/icon.png", "src": "/img/icon.png" }
   ],
   "links": [
-    { "name": "Toucharcade", "text": "Anouncement", "href": "www.toucharcade.com", "alt-text": "toucharcade anouncement website", "link-text": "toucharcade.com" }
+    { "name": "Games Magazine", "text": "Anouncement", "href": "www.fakegamesmagazine.com", "alt-text": "fake games magazine anouncement website", "link-text": "fakegamesmagazine.com" }
   ],
   "about": {
-    "boilerplate": "I'm Martin, a game developer.",
-    "more-information": "More information on VMOD, my logo &amp; relevant media are available",
-    "developer-presskit": "https://www.flatbutton.co/presskit"
+    "boilerplate": "I'm the game developer.",
+    "more-information": "More information on AWESOME GAME, my logo &amp; relevant media are available",
+    "developer-presskit": "https://www.bestawesomedeveloperever.com/presskit"
   },
   "credits": [
-    { "name": "Martin Knopf", "roles": "Game Design, Art, Programming, Sound" }
+    { "name": "My name", "roles": "Game Design, Art, Programming, Sound, Music" }
   ],
   "contacts": [
-    { "href": "mailto:contact@flatbutton.co", "name": "Inquiries", "link-text": "contact@flatbutton.co" },
-    { "href": "https://twitter.com/mknpf", "name": "Twitter", "link-text": "@mknpf" },
-    { "href": "https://www.flatbutton.co", "name": "Web", "link-text": "www.flatbutton.co" }
+    { "href": "mailto:dev@bestawesomedeveloperever.com", "name": "Inquiries", "link-text": "dev@bestawesomedeveloperever.com" },
+    { "href": "https://twitter.com/bestawesomedeveloperever", "name": "Twitter", "link-text": "@bestawesomedeveloperever" },
+    { "href": "https://www.bestawesomedeveloperever.com", "name": "Web", "link-text": "www.bestawesomedeveloperever.com" }
   ]
 }
