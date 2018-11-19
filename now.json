@@ -1,0 +1,8 @@
+{
+	"version": 2,
+	"alias": "vmod.io",
+	"routes": [
+		{ "src": "/", "dest": "/" },
+		{ "src": "/presskit", "dest": "/presskit" }
+	]
+}

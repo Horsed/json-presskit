@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html data-ember-extension="1"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>{{title}}</title>
+
+		<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/img/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+
+		<link href="uikit.gradient.min.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body cz-shortcut-listen="true" style="">
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+
+				{{! NAVIGATION }}
+
+				<div id="navigation" class="uk-width-medium-1-4">
+					<h1 class="nav-header">VMOD</h1>
+					<a class="nav-header" href="{{presskit-base-path}}" target="_self">press kit</a>
+					<ul class="uk-nav uk-nav-side">
+						<li><a href="#factsheet">Factsheet</a></li>
+						{{#description}}<li><a href="#description">Description</a></li>{{/description}}
+						{{#history}}<li><a href="#history">History</a></li>{{/history}}
+						{{#projects.length}}<li><a href="#projects">Projects</a></li>{{/projects.length}}
+						{{#trailers.length}}<li><a href="#trailers">Videos</a></li>{{/trailers.length}}
+						{{#images.length}}<li><a href="#images">Images</a></li>{{/images.length}}
+						{{#logos.length}}<li><a href="#logo">Logo &amp; Icon</a></li>{{/logos.length}}
+						{{#links.length}}<li><a href="#links">Additional Links</a></li>{{/links.length}}
+						{{#about}}<li><a href="#about">About flat button</a></li>{{/about}}
+						{{#credits.length}}<li><a href="#credits">Team</a></li>{{/credits.length}}
+						{{#contact}}<li><a href="#contact">Contact</a></li>{{/contact}}
+					</ul>
+				</div>
+
+				<div id="content" class="uk-width-medium-3-4"><img src="{{header}}" class="header">
+					<div class="uk-grid">
+						<div class="uk-width-medium-2-6">
+
+							{{! FACTSHEET }}
+
+							<h2 id="factsheet">Factsheet</h2>
+
+							{{! DEVELOPER }}
+
+							<p>
+								<strong>Developer:</strong><br>
+								<a href="{{developer-website}}">{{developer}}</a><br>
+								{{developer-location}}
+							</p>
+
+							{{! RELEASE DATE }}
+
+							<p>
+								<strong>Release date:</strong><br>
+								{{release-date}}
+							</p>
+
+							{{! PLATFORMS }}
+
+							{{#platforms.length}}
+							<p>
+								<strong>Platforms:</strong><br>
+								{{#platforms}}{{^first}}, {{/first}}<a href="{{href}}">{{name}}</a>{{/platforms}}
+							</p>
+							{{/platforms.length}}
+
+							<p>
+								<strong>Website:</strong><br>
+								<a href="{{website}}">{{website-name}}</a>
+							</p>
+
+							{{#prices.length}}
+							<p>
+								<strong>Regular Price:</strong><br>
+								{{#prices}}{{currency}}&nbsp;{{currency-char}}{{price}}<br>{{/prices}}
+							</p>
+							{{/prices.length}}
+						</div>
+						<div class="uk-width-medium-4-6">
+
+							{{! DESCRIPTION }}
+
+							<h2 id="description">Description</h2>
+							<p>
+								{{&description}}
+							</p>
+
+							{{! HISTORY }}
+
+							{{#history}}
+							<h2 id="history">History</h2>
+							<p>{{history}}</p>
+							{{/history}}
+
+							{{! FEATURES }}
+
+							{{#features.length}}
+							<h2>Features</h2>
+							<ul>{{#features}}<li>{{.}}</li>{{/features}}</ul>
+							{{/features.length}}
+						</div>
+					</div>
+
+					<hr>
+
+					{{! VIDEOS }}
+
+					{{#videos.length}}
+					<h2 id="trailers">Videos</h2>
+					{{#videos}}
+					<p><strong>{{name}}</strong>&nbsp;<a href="{{url}}">YouTube</a></p>
+					<div class="uk-responsive-width iframe-container">
+						<iframe src="{{embed-url}}" frameborder="0" allowfullscreen=""></iframe>
+					</div>
+					{{/videos}}
+					<hr>
+					{{/videos.length}}
+
+					{{! IMAGES }}
+
+					{{#images.length}}
+					<h2 id="images">Images</h2>
+					<div class="uk-grid images">
+						{{#images}}<div class="uk-width-medium-1-2"><a href="{{href}}"><img src="{{src}}" alt="{{alt-text}}"></a></div>{{/images}}
+					</div
+					<hr>
+					{{/images.length}}
+
+					{{#logos.length}}
+					<h2 id="logo">Logo &amp; Icon</h2>
+					<div class="uk-grid images">
+  					<div class="uk-width-medium-1-2">
+							{{#logos}}<a href="{{url}}"><img src="{{src}}" alt="{{alt-text}}"></a>{{/logos}}
+						</div>
+					</div>
+					<hr>
+					{{/logos.length}}
+
+						{{! ADDITIONAL LINKS}}
+
+						{{#links.length}}
+						<h2 id="links">Additional Links</h2>
+						{{/links.length}}
+						{{#links}}
+						<p>
+							<strong>{{site}}</strong><br>
+							{{text}} <a href="{{href}}" alt="{{alt-text}}">{{link-text}}</a>
+						</p>
+						{{/links}}
+						{{#links.length}}
+						<hr>
+						{{/links.length}}
+
+						{{! ABOUT DEVELOPER}}
+
+						{{#about}}
+						<h2 id="about">About {{developer}}</h2>
+						{{#boilerplate}}
+						<p>
+							<strong>Boilerplate</strong><br>
+							{{boilerplate}}
+						</p>
+						{{/boilerplate}}
+						{{#more-information}}
+						<p>
+							<strong>More information</strong><br>
+							{{more-information}} <a href="{{developer-presskit}}">here</a>.
+						</p>
+						{{/more-information}}
+						<hr>
+						{{/about}}
+
+						<div class="uk-grid">
+
+							{{! CREDITS }}
+
+							{{#credits.length}}
+							<div class="uk-width-medium-1-2">
+								<h2 id="credits">{{game-name}} Credits</h2>
+								{{#credits}}
+								<p><strong>{{name}}</strong><br>
+									{{roles}}
+								</p>
+								{{/credits}}
+							</div>
+							{{/credits.length}}
+
+							{{! CONTACT }}
+
+							{{#contacts.length}}
+							<div class="uk-width-medium-1-2">
+								<h2 id="contact">Contact</h2>
+
+								{{#contacts}}
+								<p><strong>{{name}}</strong><br>
+									<a href="href">{{link-text}}</a>
+								</p>
+								{{/contacts}}
+								<p><strong>Twitter</strong><br>
+									<a href="">twitter.com/mknpf</a>
+								</p>
+								<p><strong>Web</strong><br>
+									<a href="">www.flatbutton.co</a>
+								</p>
+							</div>
+							{{/contacts.length}}
+
+						</div>
+
+						<hr>
+
+						<p><a href="http://dopresskit.com/">presskit()</a> by Rami Ismail (<a href="http://www.vlambeer.com/">Vlambeer</a>) - also thanks to <a href="http://dopresskit.com#thanks">these fine folks</a></p>
+					</div>
+				</div>
+			</div>
+	</body></html>

@@ -1,0 +1,55 @@
+{
+	"title": "VMOD",
+	"game-name": "VMOD",
+	"website": "https://vmod.id",
+	"website-name": "vmod.io",
+	"presskit-base-path": "",
+	"header": "/img/header.png",
+  "developer-website": "https://www.flatbutton.co",
+	"developer": "flat button",
+  "developer-location": "Based in Hohenwestedt, Germany",
+  "release-date": "10 January 2019",
+	"platforms": [
+		{ "href": "http://itunes.apple.com/us/app/vmod/id1291390392", "name": "iOS", "first": true},
+		{ "href": "http://itunes.apple.com/us/app/vmod/id1291390392", "name": "Android" }
+	],
+	"prices": [
+		{ "currency": "EUR", "currency-char": "€", "price": "1.09" },
+		{ "currency": "USD", "currency-char": "$", "price": "0.99" }
+	],
+	"description": "\"VMOD\" - a new puzzler from the creator of \"AMOEBAE\", \"Shn!p\", \"Pocket Snap\" and \"Sliding Down\". It's a puzzle game about side-effects. Tap buttons to activate them. Figure out how the different buttons manipulate eachother.",
+	"history": "I had the idea one night during vacation. After prototyping some levels the game felt good and I set out to make a complete game of it. It took me 13 months.",
+	"features": [
+		"50 handcrafted logic puzzles",
+		"quite a number of mechanics",
+		"different puzzle mechanics",
+		"colorful presentation for your pleasure",
+		"minimal user interface for minimal distraction",
+		"button pressing fun"
+	],
+	"videos": [
+		{ "name": "Trailer", "url": "https://www.youtube.com/watch?v=FnheshR9oVM", "embed-url": "https://www.youtube.com/embed/FnheshR9oVM" }
+	],
+	"images": [
+		{ "alt-text": "screenshot1.png", "url": "/img/screenhot1.png", "src": "/img/screenshot1.png" }
+	],
+	"logos": [
+		{ "alt-text": "icon.png", "url": "/img/icon.png", "src": "/img/icon.png" }
+	],
+  "links": [
+		{ "name": "Toucharcade", "text": "Anouncement", "href": "www.toucharcade.com", "alt-text": "toucharcade anouncement website", "link-text": "toucharcade.com" }
+	],
+	"about": {
+		"boilerplate": "I'm Martin, a game developer.",
+		"more-information": "More information on VMOD, my logo &amp; relevant media are available",
+		"developer-presskit": "https://www.flatbutton.co/presskit"
+	},
+	"credits": [
+		{ "name": "Martin Knopf", "roles": "Game Design, Art, Programming, Sound" }
+	],
+	"contacts": [
+		{ "href": "mailto:contact@flatbutton.co", "name": "Inquiries", "link-text": "contact@flatbutton.co" },
+		{ "href": "https://twitter.com/mknpf", "name": "Twitter", "link-text": "@mknpf" },
+		{ "href": "https://www.flatbutton.co", "name": "Web", "link-text": "www.flatbutton.co" }
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "handlebars-presskit",
+  "version": "1.0.0",
+  "description": "create a precompiled press kit using handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"build": "mustache presskit.json presskit.mustache > index.html"
+  },
+  "author": "Martin Knopf",
+  "license": "MIT",
+  "devDependencies": {
+    "mustache": "^3.0.1"
+  }
+}
