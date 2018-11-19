@@ -13,3 +13,11 @@ Fill out the `presskit.json`.
 Run `npm run build` or `yarn run build`.
 
 An `ìndex.html` will be generated.
+
+# Customization
+
+The template file is called `presskit.mustache`. You can fully customize it to your needs. Same goes for the `style.css`.
+
+# License
+
+MIT
